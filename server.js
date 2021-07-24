@@ -15,7 +15,8 @@ app.post("/",function(req,res){
     var c=a+" ".concat(b+"");
     var filename=fs.appendFile('message.txt',c,function(err){
        if(err) throw err;
-    })
+    });
+    alert("Submitted Succesfully");
 })
 app.listen(PORT,function(req,res){
     console.log("Server has started on port");
