@@ -9,6 +9,14 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get("/",function(req,res){
     res.sendFile(__dirname+"/IND.html");
 })
+app.post("/",function(req,res){
+    var a=req.body.n1;
+    var b=req.body.n2;
+    var c=a+" ".concat(b+"");
+    var filename=fs.appendFile('message.txt',c,function(err){
+       if(err) throw err;
+    })
+})
 app.listen(PORT,function(req,res){
     console.log("Server has started on port");
 })
