@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif) ;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#work {
+    font-size: 70px;
+    font-style:inherit;
+    font-weight:bold;
+    color: white;
+    text-shadow: 8px 8px 5px #000;
+     ;
+
+}
+#skillset{
+    font-size: 70px;
+    font-style: inherit;
+    font-weight: bold;
+     text-shadow:8px 8px 5px black;
+}
+#contact{
+    font-size: 70px;
+    font-style: inherit;
+    font-weight: bold;
+     text-shadow:8px 8px 8px black;
+     
+}
+
+.h{
+    color: rgb(253, 253, 253);
+    text-shadow:8px 8px 8px rgb(3, 1, 10);
+    font-weight: bold;
+    font-size: 50px;
+}
+.k{
+    color: rgb(36, 12, 12);
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgb(107, 27, 27);
+}
+.i{
+    color: rgb(36,12,12);
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgb(107, 27, 27);
+}
+#l {
+    width: 25px;
+    height: 25px;
+}
+#r{
+    font-size: 3em;
+    text-shadow:8px 8px 8px rgb(3, 1, 10);
+}
+#card0{
+    width:750px ;
+    height:500px;
+    left:20%;
+    
+}
+#card1 {
+    width: 750px;
+    height: 495px;
+    left: 20%;
+    
+}
+#card2 {
+    width: 750px;
+    height: 535px;
+    left: 20%;
+    
+}
+#card3 {
+    width: 750px;
+    height: 560px;
+    left: 20%;
+    
+}
