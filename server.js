@@ -10,5 +10,5 @@ app.get("/",function(req,res){
     res.sendFile(__dirname+"/IND.html");
 })
 app.listen(PORT,function(req,res){
-    res.send("Server has started on port");
+    console.log("Server has started on port");
 })
