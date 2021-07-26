@@ -16,7 +16,7 @@ app.post("/",function(req,res){
         if(err) throw err;
         
     })
-    res.send('submitted successfully');
+   
    
 })
 app.listen(PORT,function(req,res){
