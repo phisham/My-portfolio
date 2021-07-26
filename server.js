@@ -4,6 +4,7 @@ const { ifError } = require("assert");
 const app=express();
 const fs=require('fs');
 var PORT=process.env.PORT || 5000;
+var nodemailer=require('nodemailer');
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/",function(req,res){
